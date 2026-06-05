@@ -1,0 +1,19 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Wise SCA keys
+keys/
+*.pem
+
+# Downloaded statements contain financial data
+statements/
+
+# Local agent notes
+MISTAKES.md
+LEARNINGS.md
+DESIRES.md
+
+# Node/pnpm
+node_modules/

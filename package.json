@@ -1,0 +1,16 @@
+{
+  "name": "wise-statements",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.4.0",
+  "engines": {
+    "node": "24.16.0",
+    "pnpm": "11.4.0"
+  },
+  "scripts": {
+    "statements": "node src/get-statements.ts",
+    "generate-keypair": "node src/get-statements.ts --generate-keypair",
+    "list-profiles": "node src/get-statements.ts --list-profiles"
+  }
+}
