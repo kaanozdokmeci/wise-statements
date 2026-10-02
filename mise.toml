@@ -1,3 +1,9 @@
+[settings]
+lockfile = true
+lockfile_mode = "generate"
+locked = true
+minimum_release_age = "7d"
+
 [tools]
 node = "24.16.0"
 pnpm = "11.4.0"
